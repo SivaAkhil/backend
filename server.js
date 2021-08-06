@@ -47,4 +47,4 @@ app.post("/api/calculate", (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log("server up"));
+app.listen(process.env.PORT, () => console.log("server up"));
